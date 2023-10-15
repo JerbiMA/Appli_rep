@@ -1,0 +1,6 @@
+INDEX VERSION 1.134+C:\Users\asus\Desktop\lsi3\app_reparties\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+1749326107.index
+2253060151.index
+4048406689.index
+405695892.index
