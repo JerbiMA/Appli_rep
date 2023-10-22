@@ -20,11 +20,11 @@ public class Server {
 
 	            int nb1 = op.getNb1();
 	            int nb2 = op.getNb2();
-	            char ops = op.getOp();
+	            char oper = op.getOper();
 
 	            int res = 0;
 
-	            switch(ops){
+	            switch(oper){
 	                case '+' : res = nb1 + nb2;break;
 	                case '-' : res = nb1 - nb2;break;
 	                case '*' : res = nb1 * nb2;break;

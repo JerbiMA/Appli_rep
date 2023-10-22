@@ -5,13 +5,13 @@ import java.io.Serializable;
 public class Operation  implements Serializable {	
 	private int nb1;
     private int nb2;
-    private char op;
+    private char oper;
     private int res;   
     
-public Operation(int nb1, int nb2, char op){
+public Operation(int nb1, int nb2, char oper){
         this.nb1 = nb1;
         this.nb2 = nb2;
-        this.op = op;
+        this.oper = oper;
     }
 	public int getNb1(){
     return nb1;
@@ -21,8 +21,8 @@ public Operation(int nb1, int nb2, char op){
     return nb2;
 	}
 
-	public char getOp(){
-    return op;
+	public char getOper(){
+    return oper;
 	}
 
 	public void setRes(int res){
