@@ -4,8 +4,7 @@ import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-
-import client.ClientProcess;
+import clientprocess.ClientProcess;
 
 public class Server extends Thread{
 	int nombreClient;
@@ -29,8 +28,7 @@ public class Server extends Thread{
 		catch (IOException e)
 		{			
 			e.printStackTrace();	 
-		{ 
+		
 	}
-}
 }
 }
