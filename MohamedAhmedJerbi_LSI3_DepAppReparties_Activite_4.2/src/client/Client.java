@@ -15,7 +15,7 @@ public class Client {
         DatagramSocket clientSocket = new DatagramSocket();
         InetAddress serverAddress = InetAddress.getByName("localhost"); 
         // Ici, "localhost" signifie que le serveur est sur la même machine
-        int serverPort = 1236;
+        int serverPort = 1234;
 		String heureMessage = "quelle heure est-il";
         byte[] sendheureMessage = heureMessage.getBytes();
         DatagramPacket sendPacketHeure = new DatagramPacket(sendheureMessage, sendheureMessage.length, serverAddress, serverPort);

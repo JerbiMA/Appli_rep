@@ -12,11 +12,10 @@ public class Serveur {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		try {
-			    int serverPort = 1236;
+			    int serverPort = 1234;
 	            DatagramSocket serverSocket = new DatagramSocket(serverPort);
 	            System.out.println("Le serveur est en attente de connexions..."); 
 	            while (true) { 
-	            	
 	                byte[] receiveHeure = new byte[1024];
 	                // Crée un tableau de bytes pour stocker les données reçues
 	                DatagramPacket receivePacketHeure = new DatagramPacket(receiveHeure, receiveHeure.length); 
