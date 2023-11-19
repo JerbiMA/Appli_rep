@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Client1 {
     public static void main(String[] args) {
         try (DatagramSocket clientSocket = new DatagramSocket()) {
-            System.out.println("mar7be bik fel chat ");
+            System.out.println("Bienvenue!");
             // Obtenir l'adresse IP du serveur
             InetAddress serverAddress = InetAddress.getByName("localhost");
             // Spécifier le port du serveur

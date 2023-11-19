@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Client2 {
     public static void main(String[] args) {
         try (DatagramSocket clientSocket = new DatagramSocket()) {
-            System.out.println("mar7be bik fel chat ");
+            System.out.println("Bienvenue !");
             InetAddress serverAddress = InetAddress.getByName("localhost");
             int serverPort = 1234;
             Scanner scanner = new Scanner(System.in);
